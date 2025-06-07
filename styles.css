@@ -8,7 +8,16 @@
 
 /* Remove underline from all links */
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+}
+
+/* Specific rules for buttons and project links */
+.btn, 
+.btn-primary, 
+.btn-secondary, 
+.project-link, 
+.discord-btn {
+    text-decoration: none !important;
 }
 
 body {
